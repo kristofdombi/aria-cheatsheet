@@ -1,4 +1,4 @@
-<img alt="ARIA cheatsheet logo" src="" />
+<img alt="ARIA cheatsheet logo" src="logo.jpg" />
 
 <h1 align="center">ARIA cheatsheet</h1>
 
@@ -37,11 +37,11 @@ TODO
 
 **Props:**
 
-| Name | Description | Values |
-| ---- | ----------- | ------ |
-| `role` | The button role identifies an element as a button to screen readers. | `'button'` | 
-| `aria-pressed` | Only needed for toggle buttons | `boolean` or `undefined` |
-| `aria-label` | Specify if your button is represented by an icon. | `string` |
+| Name           | Description                                                          | Values                   |    |
+|:---------------|:---------------------------------------------------------------------|:-------------------------|:---|
+| `role`         | The button role identifies an element as a button to screen readers. | `'button'`               |    |
+| `aria-pressed` | Only needed for toggle buttons                                       | `boolean` or `undefined` |    |
+| `aria-label`   | Specify if your button is represented by an icon.                    | `string`                 |    |
 
 **Interaction keys:**
 * <kbd>Enter</kbd>: Activates button
@@ -50,3 +50,7 @@ TODO
 **Required Javascript features:**
 * `onclick`
 * `onKeyDown`
+
+⬆️ Back to top
+
+--- 
