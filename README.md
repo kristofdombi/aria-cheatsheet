@@ -51,6 +51,6 @@ TODO
 * `onclick`
 * `onKeyDown`
 
-⬆️ Back to top
+[⬆️ Back to top](#table-of-contents) - [📖 MDN docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role)
 
 --- 
