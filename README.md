@@ -1,4 +1,6 @@
-<img alt="ARIA cheatsheet logo" src="logo.jpg" />
+<p align="center">
+  <img alt="ARIA cheatsheet logo" src="logo.jpg" />
+</p>
 
 <h1 align="center">ARIA cheatsheet</h1>
 
