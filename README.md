@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="ARIA cheatsheet logo" src="logo.jpg" />
+  <img alt="ARIA cheatsheet logo" src="logo.svg" />
 </p>
 
 <h1 align="center">ARIA cheatsheet</h1>
@@ -22,6 +22,7 @@ TODO
 
   - [Accordion](#accordion)
   - [Button](#button)
+  - [Checkbox](#checkbox)
   - Input
   - Textarea
   - Dialog _(Modal)_
@@ -156,3 +157,75 @@ TODO
 [⬆️ Back to top](#table-of-contents) - [📖 Source](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role)
 
 ---
+
+### Checkbox
+
+#### Dual-state:
+
+**HTML:**
+
+```html
+<h3 id="european-countries">
+  European countries
+</h3>
+<div role="group" aria-labelledby="european-countries">
+  <ul class="checkboxes">
+    <li>
+      <div role="checkbox" aria-checked="false" tabindex="0">
+        Amsterdam
+      </div>
+    </li>
+    <li>
+      <div role="checkbox" aria-checked="true" tabindex="0">
+        Brussels
+      </div>
+    </li>
+  </ul>
+</div>
+```
+
+**Props:**
+
+| Name           | Description                                                                                                                                                  | Values       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| `role`         | <ul><li>Identifies the `div` element as a `checkbox`.</li><li>The child text content of this `div` provides the accessible name of the `checkbox`.</li></ul> | `'checkbox'` |
+| `tabindex`     | Includes the checkbox in the page tab sequence.                                                                                                              | `'0'`        |
+| `aria-checked` | Indicates whether the checkbox is checked.                                                                                                                   | `boolean`    |
+
+**Interaction keys:**
+
+| Key              | Function                                               |
+| ---------------- | ------------------------------------------------------ |
+| <kbd>Tab</kbd>   | Moves keyboard focus to the checkbox.                  |
+| <kbd>Space</kbd> | Toggles checkbox between checked and unchecked states. |
+
+**Required Javascript features:**
+
+- `onclick`
+- `onKeyDown`
+
+[⬆️ Back to top](#table-of-contents) - [📖 Source](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-1/checkbox-1.html)
+
+<!--#### Mixed-state:-->
+
+<!--**HTML:**-->
+
+<!--```html-->
+
+<!--```-->
+
+<!--**Props:**-->
+
+<!--| Name | Description | Values |-->
+<!--| ---- | ----------- | ------ |-->
+<!--|  |  |  |-->
+
+<!--**Interaction keys:**-->
+
+<!--| Key | Function |-->
+<!--| --- | -------- |-->
+<!--|  |  |-->
+
+<!--[⬆️ Back to top](#table-of-contents) - [📖 Source](https://www.w3.org/TR/wai-aria-practices/examples/checkbox/checkbox-2/checkbox-2.html)-->
+
+--- 
